@@ -1,0 +1,12 @@
+# Ignore
+slides
+slides_pdf
+slides.zip
+__pycache__
+.ipynb_checkpoints
+01_Aula_17.06.2026/chat_17.06.2026.txt
+
+
+
+# Allow
+!/requirements.txt
