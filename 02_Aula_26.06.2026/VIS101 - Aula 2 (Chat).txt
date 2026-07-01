@@ -1,0 +1,108 @@
+00:12:52	Romualdo Prudêncio:	Boa noite...tudo tranquilo.
+00:13:12	Fabrízzio Condé de Oliveira:	Boa noite!
+00:13:16	Jose Sabio:	Boa noite, pessoal
+00:13:26	Aline ADR:	Noite!
+00:14:20	Fabrízzio Condé de Oliveira:	Olá, estou transcrevendo esta chamada com minha extensão Tactiq AI. https://tactiq.io/r/transcribing
+00:28:20	Victor Hugo Souza Nunes:	Se eu não me engano você pode usar outra função do opencv no colab. o cv2_imgshow()
+00:47:53	Lucas Junqueira Carneiro:	Eu trabalhei em uma startup de eng biomecanica, conheci o conteudo de um cara que faz projeto para avaliação de exercicio com camera de celular que é seu xará e tem projetos bem interessantes, Carlos Balsalobre. (@docbalsalobre no ig)
+00:52:09	Lucas Ribeiro de Freitas:	Eu
+00:52:11	Henry Christian Moreira:	eu
+00:52:15	Jose Sabio:	Unity
+00:52:16	José Lucas da Cunha:	3d max
+00:52:16	Miqueias Sousa:	Blender
+00:52:18	Lucas Ribeiro de Freitas:	Trabalho com Unreal no meu dia a dia
+00:52:27	Jose Sabio:	Blender
+00:52:47	Yuri Ferreira sales:	Metashape
+01:01:31	Carlos Melo:	https://sigmoidal.ai/en/matrix-transformations-and-coordinate-systems-with-python/
+01:23:18	Leonardo Valle:	NãO
+01:23:19	Luciano Yukio Coutinho Sato:	tava
+01:23:22	Leonardo Valle:	PODE NÃO
+01:23:24	Elias da Silva:	pode sim!
+01:23:49	Rodrigo Moraes Silveira:	Python OpenCV - Canny() Function - GeeksforGeeks
+01:28:09	Elias da Silva:	que isso professor, precisa se desculpar não!!
+01:28:45	Leonardo Valle:	TOMA CHÁ DE ROMÃ
+01:37:58	Henry Christian Moreira:	usa temperatura (modo predador).
+01:38:11	Fernando Sousa:	Um sensor de temperatura não ajudaria?
+01:41:44	Elias da Silva:	eu
+01:41:47	Lucas Ribeiro de Freitas:	Eu
+01:41:48	Ivelise Rondina:	eu
+01:41:49	Anderson G Oliveira:	eu
+01:41:52	Elias da Silva:	eu sou iniciante do zero em tudo
+01:41:53	Jose Sabio:	eu
+01:50:02	Henry Christian Moreira:	eu
+01:50:06	Fabrízzio Condé de Oliveira:	Eu
+01:50:09	Leonardo Valle:	nossa kkkkk
+01:50:13	Miqueias Sousa:	eu
+01:54:19	José Lucas da Cunha:	Carlos uma dúvida, inverter a imagem também entraria neste caso?
+02:10:00	Carlos Melo:	metade = cv2.resize(img, None, fx=0.5, fy=0.5)
+02:10:10	Carlos Melo:	pequena = cv2.resize(img, (200, 200))
+
+cv2_imshow(pequena)
+02:10:12	Jose Sabio:	quando a aula tá boa... pode continuar o tanto que precisar
+02:11:59	Rodrigo Moraes Silveira:	Resizing and Rescaling Images with OpenCV
+02:22:11	Elias da Silva:	valeu!!
+02:22:25	José Lucas da Cunha:	acho que a gravação que foi pausada Carlos
+02:27:17	Yuri Ferreira sales:	Qual o livro? Pode colocar o nome aqui?
+02:28:42	Elias da Silva:	https://www.amazon.com.br/dp/8535716807/?coliid=I36W13L3KVI7L4&colid=290MJMZ4NI7EX&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it
+02:29:24	Miqueias Sousa:	https://painel.degrausconcursos.com.br/wp-content/uploads/2023/11/FUNDAMENTOS-DA-MATEMATICA.pdf
+02:29:27	Fernando Sousa:	Reacted to "https://painel.degrausconcursos.com.br/wp-content/uploads/2023/11/FUNDAMENTOS-DA-MATEMATICA.pdf" with 👍
+02:34:57	Carlos Melo:	# Define the rotation angle (in degrees)
+angle = 45
+
+# Get the image center for rotation
+center = (w // 2, h // 2)
+
+# Get the 2x3 rotation matrix
+M_rotation = cv2.getRotationMatrix2D(center, angle, 1.0) # 1.0 is the scale factor
+
+# Apply the affine transformation to rotate the image
+rotacionada = cv2.warpAffine(img, M_rotation, (w, h))
+
+cv2_imshow(rotacionada)
+02:35:15	Carlos Melo:	fx = 0.5
+fy = 0.5
+
+M_scaling = np.float32([[fx, 0, 0], [0, fy, 0]])
+
+# Calculate new dimensions for warpAffine
+scaled_w = int(w * fx)
+scaled_h = int(h * fy)
+
+# Apply the scaling transformation
+escalada = cv2.warpAffine(img, M_scaling, (scaled_w, scaled_h))
+
+cv2_imshow(escalada)
+02:35:46	Anderson G Oliveira:	Carlos, por favor, vai disponibilizar esse material para nós depois da aula? se sim, onde?
+02:36:04	Anderson G Oliveira:	obrigado
+02:44:54	Leonardo Valle:	a aula vai até 23?
+02:45:20	Leonardo Valle:	ok mestre kkkk
+02:45:25	Elias da Silva:	a aula tá massa professor
+02:45:27	Elias da Silva:	continua aí
+02:45:40	Aline ADR:	Reacted to "a aula tá massa p..." with 👍
+02:46:03	Rodrigo Moraes Silveira:	PAULO WINTLER.pdf
+02:46:38	Anderson G Oliveira:	Aula boa passa rápido. Pode ir até 00h
+02:50:56	Aline ADR:	Carlos, obrigada mesmo por ter pego tempo para detalhar visual e explicitamente todos os conceitos. Faz uma diferença IMENSA pra fixar as ideias e os porquês (que nunca ninguém para para explicar).
+02:51:54	Fernando Sousa:	Achei o pdf do Gelson Lezzi - Volume unico.
+02:52:14	Elias da Silva:	Reacted to "Matemática_Vol_Único_Gelson_Iezzi.pdf" with ❤️
+02:57:23	Aline ADR:	Reacted to "Matemática_Vol_U..." with ❤️
+02:57:24	Carlos Melo:	https://colab.research.google.com/drive/1M6bAgAm80NR1hU7aI3vrwH_hRIeFKNUG?usp=sharing
+02:57:42	Carlos Melo:	https://colab.research.google.com/drive/1HfSat4TF5agjZ0J-KE_xCTvWglMFf29D?usp=sharing
+02:58:47	Carlos Melo:	https://colab.research.google.com/drive/1XhRARab0Yx3tyVr_Q18dAirm4Y0Mh-nM?usp=sharing
+03:03:13	Elias da Silva:	essa conversa no calendar a gente marca pelo discord?
+03:03:21	Elias da Silva:	blz
+03:03:22	Carlos Melo:	calendly
+03:03:32	Henry Christian Moreira:	ta sim
+03:03:53	Jose Sabio:	eu ainda não consegui acessar o discord
+03:04:15	Jose Sabio:	mandou .... mas não entrou
+03:05:51	Jose Sabio:	usuário do discord jrsabio
+03:07:03	Ivelise Rondina:	https://calendly.com/carlos_sigmoidal/carlos-melo-schedule
+03:07:11	Fernando Sousa:	Reacted to "https://calendly.com/carlos_sigmoidal/carlos-melo-schedule" with 👍
+03:07:15	José Lucas da Cunha:	Reacted to "https://calendly.c..." with ❤️
+03:07:23	Emily Teixeira:	Reacted to "https://calendly.com/carlos_sigmoidal/carlos-melo-schedule" with 👍
+03:07:59	Carlos Melo:	https://discord.gg/tVGrcG3E
+03:08:07	Jose Sabio:	show
+03:08:17	Elias da Silva:	valeu Carlos!! Tamo junto!!
+03:08:26	Jose Sabio:	grande abraço.... aula fantastica
+03:08:30	Aline ADR:	Obrigada! Boa noite
+03:08:32	Fabrízzio Condé de Oliveira:	Abraços
+03:08:32	Jose Sabio:	bom final de semana
