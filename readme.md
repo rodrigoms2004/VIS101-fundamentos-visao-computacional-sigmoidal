@@ -2,6 +2,9 @@
 
 https://visionbook.mit.edu/
 
+https://sigmoidal.ai/en/matrix-transformations-and-coordinate-systems-with-python/
+
+
 
 ## Ementa. 
 
