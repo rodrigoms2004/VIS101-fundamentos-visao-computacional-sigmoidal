@@ -7,6 +7,8 @@ __pycache__
 01_Aula_17.06.2026/chat_17.06.2026.txt
 03_Aula_01.07.2026\VIS101 - Aula 3 (Chat).txt
 yolov*pt
+*.csv
+*.json
 
 # Allow
 !/requirements.txt
