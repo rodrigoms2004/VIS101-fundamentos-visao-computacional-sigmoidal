@@ -7,9 +7,12 @@ __pycache__
 01_Aula_17.06.2026/chat_17.06.2026.txt
 03_Aula_01.07.2026/VIS101 - Aula 3 (Chat).txt
 04_Aula_08.07.2026/VIS101 - Aula 4 (Chat).txt
-yolov*pt
+yolo*pt
 *.csv
 *.json
+people-walking-anotado.mp4
+people-walking.mp4
+moto_480P_5sec_low.mp4_anotate*.mp4
 
 # Allow
 !/requirements.txt
