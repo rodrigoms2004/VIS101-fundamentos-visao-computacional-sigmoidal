@@ -10,9 +10,9 @@ __pycache__
 yolo*pt
 *.csv
 *.json
-people-walking-anotado.mp4
-people-walking.mp4
-moto_480P_5sec_low.mp4_anotate*.mp4
+*.mp4
+
 
 # Allow
 !/requirements.txt
+!moto_480P_5sec_low.mp4
