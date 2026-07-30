@@ -34,3 +34,5 @@ quantização) e seus efeitos sobre a imagem digital.
 ## Links relacionados
 
 [Estudo de Python para curso Visão Computacional](https://github.com/rodrigoms2004/python-study-for-cv-2026)
+
+[O Que é Amostragem e Quantização no Processamento de Imagens](https://sigmoidal.ai/o-que-e-amostragem-e-quantizacao-no-processamento-de-imagens/)
